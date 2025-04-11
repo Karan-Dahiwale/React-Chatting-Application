@@ -1,0 +1,110 @@
+.detail {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.detail .user {
+  padding: 20px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  border-bottom: 1px solid #dddddd35;
+}
+
+.detail .user img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.detail .info {
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.detail .option .title,
+.detail .title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.detail .title img,
+.detail .option .title img {
+  width: 24px;
+  height: 24px;
+  background-color: rgba(17, 25, 40, 0.3);
+  padding: 6px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.detail .photos {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.detail .photoItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.detail .photoDetail {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.detail .photoDetail img {
+  width: 35px;
+  height: 35px;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+.detail .photoDetail span {
+  font-size: 13px;
+  color: lightgrey;
+  font-weight: 300;
+}
+
+.detail .icon {
+  width: 24px;
+  height: 24px;
+  background-color: rgba(17, 25, 40, 0.3);
+  padding: 6px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.detail button {
+  width: 80%;
+  max-width: 300px;
+  padding: 10px;
+  background-color: rgba(230, 74, 105, 0.553);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 20px auto 0;
+  font-size: 14px;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+.detail button.logout {
+  padding: 10px;
+  background-color: #1a73e8 !important;
+}
+
+.detail button:hover {
+  background-color: #eb0909f6;
+}
